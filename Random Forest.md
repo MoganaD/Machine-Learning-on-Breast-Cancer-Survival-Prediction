@@ -1,5 +1,5 @@
 
-# Random Forest further modelling - Breast Cancer Survival Prediction
+# Random Forest further modelling - Breast Cancer Survival Prediction using R
 
 ## 1. Random Forest – best ntree
 ### load the package
@@ -12,9 +12,10 @@
 >print (all_data.rf)
 ### find best ntree for Random Forest
 >which.min(all_data.rf$err.rate[,1])
-2. Random Forest Further Modelling – for all clusters
+# 2. Random Forest Further Modelling – for all clusters
 Repeat the steps in (1) with different clusters of data to determine the accuracy of the model
-3. Random Forest – calibration plot using Phyton 3
+
+# 3. Random Forest – calibration plot using Phyton 3
 ### Import packages
 import numpy as np
 import pandas as pd
