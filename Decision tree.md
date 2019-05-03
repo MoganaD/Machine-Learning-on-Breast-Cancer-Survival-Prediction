@@ -11,3 +11,5 @@
 >plot (tree1)
 ## Repeat the steps with different clusters of data and variables
 change more 
+
+change testing
