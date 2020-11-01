@@ -1,0 +1,19 @@
+The similar concepts between conventional statistics and machine learning
+
+
+1. To determine the quality of data:
+
+a) effect size or power analysis (Cox regression model) is done using conventional statistics. 
+The method used is residual analysis, if necessary standardized residual error will be performed using linear regression.
+
+b) In machine learning, model evaluation is performed using different algorithms 
+The R codes for model evaluation is in the file (model evaluation)
+
+2. To determine the significance of factors in the dataset relating to the target variable (dependent variable):
+
+a) Chi sqauare test/ logistic regression is done in conventional statistics to select the significant variable
+
+b) Variable importance is done in machine learning to determine the rank of variables based on importance score 
+(refer to variable importance R code)
+
+3. Survival analysis R codes are under the survival analysis file. 
